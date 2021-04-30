@@ -1,6 +1,7 @@
 # pi-school-tv  
 
-Tv del colegio con Raspberry pi 3 enchufada por HDMI. Su función es fichar en Séneca por código QR o llavero RFID.
+Tv del colegio con Raspberry pi 3 enchufada por HDMI. 
+Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágenes en modo presentación.
 
 Lleva instalado Raspberry Pi OS (debian buster) 
 
