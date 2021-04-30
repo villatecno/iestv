@@ -3,6 +3,8 @@
 Tv del colegio con Raspberry pi 3 enchufada por HDMI. 
 Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágenes en modo presentación.
 
+![](https://www.kubii.es/7147-large_default/raspberry-pi-3-modelo-b-1-gb-kubii.jpg)
+
 Lleva instalado Raspberry Pi OS (debian buster) 
 
 Se enciende cada día con un temporizador en la pared que le da corriente por la mañana y se debe de apagar con un cron o aplicación antes de que dicho temporizador apague el sistema.
