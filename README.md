@@ -18,3 +18,13 @@ A las 13:50 debe de abrirse el navegador Chromium en modo kiosko nuevamente para
 El sistema debe de apagarse a las 14:15 para que se cierre bien el sistema ya que a las 14:30 el temporizador de corriente se apaga.
 
 `sudo cp slideshow.service //etc/systemd/system`
+
+`sudo cp slideshow.timer //etc/systemd/system`
+
+`sudo systemctl daemon-reload`
+
+`sudo systemctl start slideshow.service`
+
+`sudo systemctl enable slideshow.timer`
+
+`sudo systemctl start slideshow.timer´
