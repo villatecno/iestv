@@ -13,6 +13,9 @@ Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating
 
 1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema.
 
+![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
+
+
 2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/) 
 
 3. A las **9:20** de la mañana, abre un visualizador de imágenes con las fotos del cole. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un teléfono móvil.
