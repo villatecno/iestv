@@ -6,5 +6,6 @@ After=network-online.target
 [Service]
 Type=simple
 Environment="DISPLAY=:0"
+ExecStartPre= sudo systemctl stop slideshow.service
 ExecStart=sh -c "sleep 1 &&/usr/bin/chromium-browser --noerrdiaglogs --disable-infobars --kiosk https://seneca.juntadeandalucia.es/controldepresencia/"
 User=pi
