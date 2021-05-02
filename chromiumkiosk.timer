@@ -1,0 +1,10 @@
+[Unit]
+Description= Timer de chromium-kiosk
+
+[Timer]
+Unit=chromiumkiosk.service
+OnCalendar=Mon..Sun *-*-* 12:48:00
+
+
+[Install]
+WantedBy=timers.target
