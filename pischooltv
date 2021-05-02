@@ -1,5 +1,21 @@
 #!/bin/bash
 
+# Instala el servicio de compartición en red local SAMBA
+
+sudo apt install samba samba-common-bin -y
+
+# Copia la configuración para compartir la carpeta Pictures
+sudo cp smb.conf /etc/samba/
+
+# Establece contraseña para el usuario PI. Hay que introducir la contraseña dos veces.
+
+sudo smbpasswd -a pi
+
+# Reinicia y activa el servicio SAMBA en el equipo
+
+sudo systemctl restart smbd
+sudo systemctl enable smbd
+
 # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
 
 sudo cp chromium-kiosk-pi.desktop /etc/xdg/autostart
