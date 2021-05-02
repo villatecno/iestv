@@ -5,13 +5,13 @@ Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágen
 
 ![](https://www.kubii.es/7147-large_default/raspberry-pi-3-modelo-b-1-gb-kubii.jpg)
 
+![](https://images-na.ssl-images-amazon.com/images/I/61Ry5l0ARoL._AC_SL1500_.jpg))
+
 Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) (debian buster) 
 
 ## Temporizador y funciones:
 
 1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema.
-
-![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
 
 2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/) 
 
