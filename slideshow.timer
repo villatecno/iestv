@@ -3,7 +3,7 @@ Description= Timer de slideshow
 
 [Timer]
 Unit=slideshow.service
-OnCalendar=Mon..Sun *-*-* 12:26:00
+OnCalendar=Mon..Sun *-*-* 13:04:00
 
 
 [Install]
