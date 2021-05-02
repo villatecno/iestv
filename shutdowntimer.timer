@@ -1,0 +1,10 @@
+[Unit]
+Description= Timer de shutdowntimer
+
+[Timer]
+Unit=shutdowntimer.service
+OnCalendar=Mon..Sun *-*-* 20:18:00
+
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,8 @@
+[Unit]
+Description= apagado a hora específica
+After=network-online.target
+
+
+[Service]
+Type=simple
+ExecStart=shutdown -P now
