@@ -17,20 +17,11 @@ A las 13:50 debe de abrirse el navegador Chromium en modo kiosko nuevamente para
 
 El sistema debe de apagarse a las 14:15 para que se cierre bien el sistema ya que a las 14:30 el temporizador de corriente se apaga.
 
-`sudo cp slideshow.* /etc/systemd/system`
+# Instalación
 
-`sudo cp chromiumkiosk.* /etc/systemd/system`
+`git clone https://github.com/aosucas499/pischooltv`
 
-`sudo systemctl daemon-reload`
+`cd pischooltv`
 
-`sudo systemctl start slideshow.service`
+`./pischooltv`
 
-`sudo systemctl enable slideshow.timer`
-
-`sudo systemctl start slideshow.timer`
-
-`sudo systemctl start chromiumkiosk.service`
-
-`sudo systemctl enable chromiumkiosk.timer`
-
-`sudo systemctl start chromiumkiosk.timer`
