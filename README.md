@@ -27,4 +27,4 @@ El sistema debe de apagarse a las 14:15 para que se cierre bien el sistema ya qu
 
 `sudo systemctl enable slideshow.timer`
 
-`sudo systemctl start slideshow.timer´
+`sudo systemctl start slideshow.timer`
