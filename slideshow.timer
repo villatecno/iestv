@@ -1,0 +1,10 @@
+[Unit]
+Description= Timer de slideshow
+
+[Timer]
+Unit=slideshow.service
+OnCalendar=Mon..Sun *-*-* 12:26:00
+
+
+[Install]
+WantedBy=timers.target
