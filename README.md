@@ -16,3 +16,5 @@ Al encender debe de abrir el navegador Chromium en modo kiosko con la página de
 A las 13:50 debe de abrirse el navegador Chromium en modo kiosko nuevamente para el fichaje desde código QR o lector de proximidad RFID. 
 
 El sistema debe de apagarse a las 14:15 para que se cierre bien el sistema ya que a las 14:30 el temporizador de corriente se apaga.
+
+`sudo cp slideshow.service //etc/systemd/system`
