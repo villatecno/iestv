@@ -13,13 +13,13 @@ Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating
 
 ![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
 
-2. Cada mañana, al **arrancar el sistema**, se debe de abrir el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/) 
+2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/) 
 
-3. A las **9:20** de la mañana, debe de abrirse un visualizador de imágenes con las fotos del cole. Debe de llevar activado samba para compartir las imágenes de modo rápido y fácil desde un teléfono móvil.
+3. A las **9:20** de la mañana, abre un visualizador de imágenes con las fotos del cole. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un teléfono móvil.
 
-4. A las **13:50** debe de abrirse el navegador Chromium en modo kiosko nuevamente, para el fichaje desde código QR o lector de proximidad RFID. 
+4. A las **13:50**, abre el navegador Chromium en modo kiosko nuevamente, para el fichaje desde código QR o lector de proximidad RFID. 
 
-5. A las **14:15** debe de apagarse automáticamente la Raspberry Pi, para que se cierre bien el sistema, ya que a las **14:30** el temporizador de corriente corta la alimentación eléctrica.
+5. A las **14:15**, se apaga automáticamente la Raspberry Pi, para que se cierre bien el sistema, ya que a las **14:30** el temporizador de corriente corta la alimentación eléctrica.
 
 ## Instalación
 
