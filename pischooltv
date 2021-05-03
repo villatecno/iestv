@@ -19,6 +19,7 @@ sudo systemctl enable smbd
 # Instala el visor de imágenes
 
 sudo apt-get install feh -y
+cp Escudo.jpg /home/pi/Pictures
 
 # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
 
