@@ -3,7 +3,7 @@ Description= Timer de shutdowntimer
 
 [Timer]
 Unit=shutdowntimer.service
-OnCalendar=Mon..Sun *-*-* 14:15::00
+OnCalendar=Mon..Fri *-*-* 14:15::00
 
 
 [Install]
