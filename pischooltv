@@ -16,6 +16,10 @@ sudo smbpasswd -a pi
 sudo systemctl restart smbd
 sudo systemctl enable smbd
 
+# Instala el visor de imágenes
+
+sudo apt-get install feh -y
+
 # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
 
 sudo cp chromium-kiosk-pi.desktop /etc/xdg/autostart
