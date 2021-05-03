@@ -37,13 +37,13 @@ sudo systemctl daemon-reload
 # Inicia los servicios timer para que se ejecuten a una hora específica
 # y los servicios de diapositivas y chromium en modo kiosk
 
-sudo systemctl start slideshow.service
+#sudo systemctl start slideshow.service
 sudo systemctl enable slideshow.timer
 sudo systemctl start slideshow.timer
-sudo systemctl start chromiumkiosk.service
+#sudo systemctl start chromiumkiosk.service
 sudo systemctl enable chromiumkiosk.timer
 sudo systemctl start chromiumkiosk.timer
 sudo systemctl enable shutdowntimer.timer
 sudo systemctl start shutdowntimer.timer
-sudo systemctl start shutdowntimer.service
+#sudo systemctl start shutdowntimer.service
 
