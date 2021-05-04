@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Chromium-kiosk
 Comment=Navegador web Chromim kiosk
-Exec=sh -c "sleep 1 &&/usr/bin/chromium-browser --noerrdiaglogs --disable-infobars --kiosk https://seneca.juntadeandalucia.es/controldepresencia/"
+Exec=sh -c "sleep 40 &&/usr/bin/chromium-browser --noerrdiaglogs --disable-infobars --kiosk https://seneca.juntadeandalucia.es/controldepresencia/"
 Icon=chromium-browser
 Terminal=false
 Type=Application
