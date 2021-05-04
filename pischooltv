@@ -28,10 +28,11 @@ function ntp-fix {
     sudo chmod 0440 ./ntp/zz-fix-ntp
     sudo cp ./ntp/zz-fix-ntp /etc/sudoers.d/ 
     sudo cp ./ntp/fix-ntp.desktop /etc/xdg/autostart/
+    echo -e "${ROJO}Fix-ntp time instalado${NORMAL}"
 }
 
   ntp-fix
-  echo -e "${ROJO}Fix-ntp time instalado${NORMAL}"
+
 
 # Instala el servicio de compartición en red local SAMBA
 
