@@ -45,5 +45,7 @@ Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating
 
 Se debe de usar una aplicación que comparta archivos entre el teléfono y la raspberry a través del protocolo SAMBA. Uo utilizo la aplicación [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=es_419&gl=ES).
 
-Tutorial para compartir imágenes: aquí
+Tutorial para compartir imágenes: 
+
+[Aquí](https://github.com/aosucas499/pischooltv/wiki/Im%C3%A1genes-de-Android-a-la-Raspberry)
 
