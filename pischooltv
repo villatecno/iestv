@@ -1,50 +1,91 @@
 #!/bin/bash
 
+# Funciones de códigos de color para echo
+
+ROJO="\033[1;31m"
+NORMAL="\033[0m"
+AZUL="\033[1;34m"
+
+# Función que repara la hora del sistema conectado por WIFI en cada inicio.
+
+function ntp-fix {
+
+	# Salimos si ya está aplicado el cambio
+	# ---
+
+	if [[ -f /usr/bin/fix-ntp ]]; then
+		echo -e "${AZUL}Ya estaba corregida la hora por NTP${NORMAL}"
+		return
+	fi
+	
+	# Aplicamos el cambio
+	# ---
+
+    sudo timedatectl set-timezone Europe/Madrid
+    sudo cp ./ntp/fix-ntp /usr/bin
+    sudo chmod +x /usr/bin/fix-ntp
+    sudo chown root:root ./ntp/zz-fix-ntp
+    sudo chmod 0440 ./ntp/zz-fix-ntp
+    sudo cp ./ntp/zz-fix-ntp /etc/sudoers.d/ 
+    sudo cp ./ntp/fix-ntp.desktop /etc/xdg/autostart/
+}
+
+  ntp-fix
+  echo -e "${ROJO}Fix-ntp time instalado${NORMAL}"
+
 # Instala el servicio de compartición en red local SAMBA
 
-sudo apt install samba samba-common-bin -y
+  sudo apt install samba samba-common-bin -y
 
 # Copia la configuración para compartir la carpeta Pictures
-sudo cp smb.conf /etc/samba/
+  sudo cp smb.conf /etc/samba/
 
 # Establece contraseña para el usuario PI. Hay que introducir la contraseña dos veces.
-
-sudo smbpasswd -a pi
+  echo ""
+  echo ""
+  echo -e "${AZUL}Introduza a continuación una contraseña asociada al usuario pi,${NORMAL}"
+  echo -e "${ROJO}para compartir archivos en red local${NORMAL}"
+  sudo smbpasswd -a pi
 
 # Reinicia y activa el servicio SAMBA en el equipo
 
-sudo systemctl restart smbd
-sudo systemctl enable smbd
+  sudo systemctl restart smbd
+  sudo systemctl enable smbd
+  echo -e "${ROJO}Instalado SAMBA${NORMAL}"
 
 # Instala el visor de imágenes
 
-sudo apt-get install feh -y
-cp Escudo.jpg /home/pi/Pictures
+  sudo apt-get install feh -y
+  cp Escudo.jpg /home/pi/Pictures
+  echo -e "${ROJO}Instalado visor de imágenes y una imagen de prueba en la carpeta PICTURES${NORMAL}"
 
 # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
 
-sudo cp chromium-kiosk-pi.desktop /etc/xdg/autostart
+  sudo cp chromium-kiosk-pi.desktop /etc/xdg/autostart
+  echo -e "${ROJO}Autoinicio de control de presencia de Séneca instalado${NORMAL}"
 
 # Copiar los servicios de dispositivas y navegador en modo kiosko 
 # por segunda vez en el día
 
-sudo cp slideshow.* /etc/systemd/system
-sudo cp chromiumkiosk.* /etc/systemd/system
-sudo cp shutdowntimer* /etc/systemd/system
+  sudo cp slideshow.* /etc/systemd/system
+  sudo cp chromiumkiosk.* /etc/systemd/system
+  sudo cp shutdowntimer* /etc/systemd/system
 
 # Recarga los servicios del sistema
-sudo systemctl daemon-reload
+  sudo systemctl daemon-reload
 
 # Inicia los servicios timer para que se ejecuten a una hora específica
 # y los servicios de diapositivas y chromium en modo kiosk
 
-#sudo systemctl start slideshow.service
-sudo systemctl enable slideshow.timer
-sudo systemctl start slideshow.timer
-#sudo systemctl start chromiumkiosk.service
-sudo systemctl enable chromiumkiosk.timer
-sudo systemctl start chromiumkiosk.timer
-sudo systemctl enable shutdowntimer.timer
-sudo systemctl start shutdowntimer.timer
-#sudo systemctl start shutdowntimer.service
+  #sudo systemctl start slideshow.service
+  sudo systemctl enable slideshow.timer
+  sudo systemctl start slideshow.timer
+  #sudo systemctl start chromiumkiosk.service
+  sudo systemctl enable chromiumkiosk.timer
+  sudo systemctl start chromiumkiosk.timer
+  sudo systemctl enable shutdowntimer.timer
+  sudo systemctl start shutdowntimer.timer
+  #sudo systemctl start shutdowntimer.service
+  echo -e "${ROJO}Servicios de temporizador del visor de imágenes, control de presencia${NORMAL}"
+  echo -e "${ROJO}y autoapagado automático instalados.${NORMAL}"
 
