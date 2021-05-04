@@ -7,9 +7,11 @@ Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágen
 
 ![](https://images-na.ssl-images-amazon.com/images/I/61Ry5l0ARoL._AC_SL1500_.jpg)
 
+El lector RFID no necesita drivers ya que se configura como un teclado al conectarlo por usb.
+
 Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) (debian buster) 
 
-El lector RFID no necesita drivers ya que se configura como un teclado al conectarlo por usb.
+Instrucciones y recomendaciones de configuración del sistema: [aquí](https://github.com/aosucas499/pischooltv/wiki/Preconfiguraci%C3%B3n-del-sistema)
 
 ## Temporizador y funciones:
 
@@ -38,5 +40,7 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 ## Envío de imágenes desde el teléfono móvil.
 
-Se debe de usar una aplicación que comparta archivos entre el teléfono y la raspberry a través del protocolo SAMBA. yo utilizo la aplicación [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=es_419&gl=ES).
+Se debe de usar una aplicación que comparta archivos entre el teléfono y la raspberry a través del protocolo SAMBA. Uo utilizo la aplicación [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=es_419&gl=ES).
+
+Tutorial para compartir imágenes: aquí
 
