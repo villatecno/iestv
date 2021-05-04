@@ -36,3 +36,5 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 ## Envío de imágenes desde el teléfono móvil.
 
+Se debe de usar una aplicación que comparta archivos entre el teléfono y la raspberry a través del protocolo SAMBA. yo utilizo la aplicación [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=es_419&gl=ES).
+
