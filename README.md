@@ -11,7 +11,10 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) (debian buster) 
 
-Instrucciones y recomendaciones de configuración del sistema: [aquí](https://github.com/aosucas499/pischooltv/wiki/Preconfiguraci%C3%B3n-del-sistema)
+### Instrucciones y recomendaciones de configuración del sistema: 
+
+[Aquí](https://github.com/aosucas499/pischooltv/wiki/Preconfiguraci%C3%B3n-del-sistema)
+
 
 ## Temporizador y funciones:
 
