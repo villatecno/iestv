@@ -32,6 +32,8 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 `cd pischooltv`
 
+`chmod +x pischooltv`
+
 `./pischooltv`
 
 ## Envío de imágenes desde el teléfono móvil.
