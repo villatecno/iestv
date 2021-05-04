@@ -44,7 +44,7 @@ function ntp-fix {
   echo ""
   echo ""
   echo -e "${AZUL}Introduza a continuación una contraseña asociada al usuario pi,${NORMAL}"
-  echo -e "${ROJO}para compartir archivos en red local${NORMAL}"
+  echo -e "${AZUL}para compartir archivos en red local${NORMAL}"
   sudo smbpasswd -a pi
 
 # Reinicia y activa el servicio SAMBA en el equipo
