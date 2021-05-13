@@ -89,4 +89,14 @@ function ntp-fix {
   #sudo systemctl start shutdowntimer.service
   echo -e "${ROJO}Servicios de temporizador del visor de imágenes, control de presencia${NORMAL}"
   echo -e "${ROJO}y autoapagado automático instalados.${NORMAL}"
+  
+  # Instala el paquete que controla la tv por hdmi
+
+  sudo apt-get install cec-utils -y
+  echo -e "${ROJO}Instalado control de tv por HDMI${NORMAL}"
+  
+  # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
+
+  sudo cp tv-control.desktop /etc/xdg/autostart
+  echo -e "${ROJO}Autoinicio de control de TV por HDMI${NORMAL}"
 
