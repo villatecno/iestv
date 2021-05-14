@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=control tv
 Comment=Control de tv por hdmi con paquete cec-utils
-Exec=echo 'on 0.0.0.0' | cec-client -s -d 1
+Exec=sh -c "sleep 60 && echo 'on 0.0.0.0' | cec-client -s -d 1"
 Icon=
 Terminal=false
 Type=Application
