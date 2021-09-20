@@ -48,3 +48,11 @@ Se debe de usar una aplicación que comparta archivos entre el teléfono y la ra
 Tutorial para compartir imágenes: 
 [Aquí](https://github.com/aosucas499/pischooltv/wiki/Im%C3%A1genes-de-Android-a-la-Raspberry)
 
+Si este proyecto te ayuda, puedes invitarme a un café.
+
+
+If this project helps you,  you can give me a cup of coffee .
+
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?business=FUMT27MVTRTHJ&no_recurring=0&item_name=Proyectos+TIC+Andaluc%C3%ADa&currency_code=EUR)
+
