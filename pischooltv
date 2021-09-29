@@ -58,6 +58,7 @@ function ntp-fix {
 
   sudo apt-get install feh -y
   cp Escudo.jpg /home/pi/Pictures
+  cp menuactual.jpg /home/pi/Pictures
   echo -e "${ROJO}Instalado visor de imágenes y una imagen de prueba en la carpeta PICTURES${NORMAL}"
 
 # Copiar el archivo que lanza el navegador en modo kiosk en cada inicio
