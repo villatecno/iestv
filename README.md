@@ -23,7 +23,7 @@ Lleva instalado [Raspberry Pi OS](https://www.raspberrypi.org/software/operating
 ![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
 
 
-2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/). Tarda unos 40 segundos en iniciar, ya que durante los primeros 30 segundos, el sistema lanza un script que actualiza la hora y la fecha en el sistema. Todo esto es debido a que los dispositivos conectados por WIFI (Andared) a la red de Internet de los centros educativos de Andalucía no actualizan bien la hora.
+2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página de las [sustituciones del día en el centro.](https://docs.google.com/spreadsheets/d/1LSPw7GFk5Jse_WaKsrxhs9i9-PX7KKsn2EuVbF3cJBA). Tarda unos 40 segundos en iniciar, ya que durante los primeros 30 segundos, el sistema lanza un script que actualiza la hora y la fecha en el sistema. Todo esto es debido a que los dispositivos conectados por WIFI (Andared) a la red de Internet de los centros educativos de Andalucía no actualizan bien la hora.
 
 3. A las **9:20** de la mañana, abre un visualizador de imágenes con las fotos del cole. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un teléfono móvil.
 
