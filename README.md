@@ -9,7 +9,7 @@ Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágen
 
 El lector RFID no necesita drivers ya que se configura como un teclado al conectarlo por usb.
 
-Lleva instalado [Raspberry Pi OS](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip) (debian buster) 
++ Compatible con [Raspberry Pi OS](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip) (Legacy basado en debian buster). No descarges el más actual, utiliza solo la versión del enlace anterior.
 
 ### Instrucciones y recomendaciones de configuración del sistema: 
 
