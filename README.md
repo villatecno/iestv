@@ -47,7 +47,7 @@ Una vez instalado y configurada correctamente la Raspberry PI, abrir el terminal
 
 Se debe de usar una aplicación que comparta archivos entre el teléfono y la raspberry a través del protocolo SAMBA. 
 
-Tutorial para compartir imágenes: 
+Tutorial para compartir imágenes usando el móvil: 
 [Aquí](https://github.com/aosucas499/pischooltv/wiki/Im%C3%A1genes-de-Android-a-la-Raspberry)
 
 Este proyecto es un derivado del original de aosucas499 (https://github.com/aosucas499/pischooltv).
