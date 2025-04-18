@@ -27,11 +27,13 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 4. En nuestro centro las clases se inician a las 8:15, por lo cual hay que fichar antes. Pasado un tiempo prudencial de 7 minutos, a las **8:22** de la mañana, se abre un visualizador de imágenes con fotos del Instituto o avisos en forma de archivo de imagen. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un ordenador Windows (usando por ejemplo WinSCP https://winscp.net/eng/docs/lang:es) o un teléfono móvil. Igualmente se activará la presentación de imágenes (slideshow) 7 minutos después de cada momento de fichaje: **En total, se abrirá el visualizador de imágenes a las 8:22, las 9:22, las 10:22, las 11:22, las 11:52, las 12:52 y las 13:52.**
 
-5. Por otra parte, unos 7 minutos antes de cada cambio de hora, se vuelve a abrir el navegador Chromium en modo kiosko, para el fichaje desde código QR o lector de proximidad RFID.**El navegador Chromium para fichar se activará a las 9:08, las 10:08, las 11:08, las 11:38, las 12:38, las 13:38 y las 14:38**. Como se ha dicho anteriormente, la primera vez que se abre por la mañana (que debía ser antes de las 8:15) no se hace en un momento exacto sino cuando el sistema arranca, que serán aproximadamente las 8:00 y depende del reloj temporizador.   
+5. Por otra parte, unos 7 minutos antes de cada cambio de hora, se vuelve a abrir el navegador Chromium en modo kiosko, para el fichaje desde código QR o lector de proximidad RFID. **Para fichar, se activará el navegador Chromium a las 9:08, las 10:08, las 11:08, las 11:38, las 12:38, las 13:38 y las 14:38**. Como se ha dicho anteriormente, la primera vez que se abre por la mañana (que debía ser antes de las 8:15) no se hace en un momento exacto sino cuando el sistema arranca, que serán aproximadamente las 8:00 y depende del reloj temporizador.   
 
 6. Finalmente, a las **14:57**, se apaga automáticamente la Raspberry Pi, para que se cierre bien el sistema, ya que a las **15:00** el temporizador de corriente corta la alimentación eléctrica, tanto de la Raspberry Pi como del televisor.
 
 ## Instalación
+
+Una vez instalado y configurada correctamente la Raspberry PI, abrir el terminal y escribir las órdenes siguientes:
 
 `git clone https://github.com/aosucas499/pischooltv`
 
