@@ -3,7 +3,8 @@ Description= Timer de chromium-kiosk
 
 [Timer]
 Unit=chromiumkiosk.service
-OnCalendar=Mon..Fri *-*-* 13:50:00
+OnCalendar=Mon..Fri *-*-* 09,10,11:08:00
+OnCalendar=Mon..Fri *-*-* 11,12,13,14:38:00
 
 
 [Install]
