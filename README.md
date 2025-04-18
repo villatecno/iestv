@@ -1,6 +1,6 @@
 # pi-school-tv  
 
-Tv del colegio con Raspberry pi 3 enchufada por HDMI. 
+Tv del instituto con Raspberry pi 3 enchufada por HDMI. 
 Su función es fichar en Séneca por código QR o llavero RFID y mostrar imágenes en modo presentación.
 
 ![](https://www.kubii.es/7147-large_default/raspberry-pi-3-modelo-b-1-gb-kubii.jpg)
