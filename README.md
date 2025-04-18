@@ -18,7 +18,7 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 ## Temporizador y funciones:
 
-1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema.
+1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema. En nuestro caso se ha programado **el encendido a las 08:00 y el apagado a las 15:00**. En el reloj temporizador **se enchufa la Raspberry PI y también el televisor**.
 
 ![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
 
