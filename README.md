@@ -18,18 +18,18 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 ## Temporizador y funciones:
 
-1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema. En nuestro caso se ha programado **el encendido a las 08:00 y el apagado a las 15:00**. En el reloj temporizador **se enchufa la Raspberry PI y también el televisor**.
+1. Se enciende cada día con un **temporizador** en la pared que le da corriente por la mañana y se debe de apagar antes de que dicho temporizador apague el sistema. En nuestro caso se ha programado **el encendido a las 8:00 y el apagado a las 15:00**. En el reloj temporizador **se enchufa la Raspberry PI y también el televisor**.
 
 ![](https://images-na.ssl-images-amazon.com/images/I/41c3xcYQaFL.__AC_SY300_QL70_ML2_.jpg)
 
 
-2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/). Tarda unos 40 segundos en iniciar, ya que durante los primeros 30 segundos, el sistema lanza un script que actualiza la hora y la fecha en el sistema. Todo esto es debido a que los dispositivos conectados por WIFI (Andared) a la red de Internet de los centros educativos de Andalucía no actualizan bien la hora.
+2. Cada mañana, al **arrancar el sistema**, abre el navegador Chromium en modo kiosko con la página del [control de presencia de Séneca.](https://seneca.juntadeandalucia.es/controldepresencia/). Tarda unos 40 segundos en iniciar, ya que durante los primeros 30 segundos, el sistema lanza un script que actualiza la hora y la fecha en el sistema. Todo esto es debido a que los dispositivos conectados por WIFI (Andared) a la red de Internet de los centros educativos de Andalucía no actualizan bien la hora. El inicio del navegador Chromium en el arranque del sistema no ocurre de forma temporizada, ocurriría de la misma manera si de forma accidental se encendiera la raspberry a otra hora distinta.
 
-3. A las **9:20** de la mañana, abre un visualizador de imágenes con las fotos del cole. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un teléfono móvil.
+4. En nuestro centro las clases se inician a las 8:15, por lo cual hay que fichar antes. Pasado un tiempo prudencial, unos 7 minutos después, a las **8:22** de la mañana, se abre un visualizador de imágenes con fotos del Instituto o avisos en forma de archivo de imagen. Lleva activado samba para compartir las imágenes de modo rápido y fácil desde un ordenador Windows (usando por ejemplo WinSCP https://winscp.net/eng/docs/lang:es) o un teléfono móvil.
 
-4. A las **13:50**, abre el navegador Chromium en modo kiosko nuevamente, para el fichaje desde código QR o lector de proximidad RFID. 
+5. A las **13:50**, abre el navegador Chromium en modo kiosko nuevamente, para el fichaje desde código QR o lector de proximidad RFID. 
 
-5. A las **14:15**, se apaga automáticamente la Raspberry Pi, para que se cierre bien el sistema, ya que a las **14:30** el temporizador de corriente corta la alimentación eléctrica.
+6. A las **14:15**, se apaga automáticamente la Raspberry Pi, para que se cierre bien el sistema, ya que a las **14:30** el temporizador de corriente corta la alimentación eléctrica.
 
 ## Instalación
 
