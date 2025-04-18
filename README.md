@@ -35,7 +35,7 @@ El lector RFID no necesita drivers ya que se configura como un teclado al conect
 
 Una vez instalado y configurada correctamente la Raspberry PI, abrir el terminal y escribir las órdenes siguientes:
 
-`git clone https://github.com/aosucas499/pischooltv`
+`git clone https://github.com/villatecno/iestv`
 
 `cd pischooltv`
 
@@ -50,10 +50,11 @@ Se debe de usar una aplicación que comparta archivos entre el teléfono y la ra
 Tutorial para compartir imágenes: 
 [Aquí](https://github.com/aosucas499/pischooltv/wiki/Im%C3%A1genes-de-Android-a-la-Raspberry)
 
-Si este proyecto te ayuda, puedes invitarme a un café.
+Este proyecto es un derivado del original de aosucas499 (https://github.com/aosucas499/pischooltv).
+Si este proyecto te ayuda, puedes invitarle a un café.
 
 
-If this project helps you,  you can give me a cup of coffee .
+If this project helps you,  you can give aosucas499 a cup of coffee .
 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?business=FUMT27MVTRTHJ&no_recurring=0&item_name=Proyectos+TIC+Andaluc%C3%ADa&currency_code=EUR)
